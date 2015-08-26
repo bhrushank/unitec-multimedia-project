@@ -1,0 +1,7 @@
+https://css-tricks.com/on-target/
+http://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp
+https://css-tricks.com/snippets/css/keyframe-animation-syntax/
+http://www.impressivewebs.com/demo-files/css3-animated-scene/
+http://www.w3.org/Style/Examples/007/target#tab1
+http://www.the-art-of-web.com/css/css-animation/
+http://www.w3.org/TR/css3-syntax/

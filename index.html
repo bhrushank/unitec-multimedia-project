@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Unitec New Design - Page 1</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="scripts/xml.js" language="javascript"></script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="contentWapprer">
+<div id="headerHolder">
+<div id="searchBar">
+<input type="checkbox" id="navbar-checkbox" class="navbar-checkbox">
+<nav role="navigation" class="menu">
+<ul class="btn-dd-items">
+<div class="maskSelection"></div>
+<li class=""> <a class="selected" href="index.html"> Unitec </a></li>
+<li class=""> <a class="" href="http://www.unitec.ac.nz/current-students"> Current Students </a></li>
+<li class=""> <a class="" href="http://www.unitec.ac.nz/international"> International </a></li>
+<li class=""> <a class="" href="http://www.unitec.ac.nz/maori"> Māori </a></li>
+<li class=""> <a class="" href="http://www.unitec.ac.nz/about-us"> About Us </a></li>
+</ul>
+<label for="navbar-checkbox" class="navbar-handle"></label>
+</nav>
+<input type="search" id="search" placeholder="Search"/><span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+<a href="http://www.unitec.ac.nz/about-us/staff-logins" target="_blank"><img class="staff" src="images/staff.png" alt="staff"/><a>
+<a href="http://moodle.unitec.ac.nz/" target="_blank"><img class="moodle" src="images/moodle.png" alt="moodle"/><a>
+</div>
+<div id="header">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative; left: -0.5px;" id="Hd-polygon">
+<defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
+<path fill="#156269" stroke="none" d="M0,30 L1500,300 L800,300 L500,300 L0,300 L0,0Z" opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 1;"></path>
+<path fill="#2a97a1" stroke="none" d="M0,0 L2000,0 L300,300 L0,50Z" opacity="0.6" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0.6;"></path>
+</svg>
+<a href="index.html"><img src="images/img-logo-lg.png" alt="logo" /></a>
+<p><a>Bachelor of Computing Systems</a><p>
+</div>
+<!--<div id="menuHolder"></div>-->
+</div>
+<div id="contentHolder">
+<div class="mediaContent">
+	<div class="print">
+    	<span class="btnPrint">Print</span>
+    </div>
+	<div class="pathwayHolder">
+    	<div class="pathElem grpActive grp1"><span>Semester 1</span></div>
+    	<div class="pathElem grpActive grp1"><span>Semester 2</span></div>
+       	<div  class="pathElem grp2"><span>Semester 3</span></div>
+    	<div class="pathElem grp2"><span>Semester 4</span></div>
+    	<div class="pathElem grp2"><span>Semester 5</span></div>
+       	<div class="pathElem grp3"><span>Semester 6</span></div>        
+    </div>
+    <div class="sem12">
+		<div id="first" class="right"><img alt="first" src="images/first.png"/></div>
+        <div class="left">
+		<div id="one" class="btns"><img src="images/network.png"/></div>
+		<div id="two" class="btns"><img src="images/security.png"/></div>
+        <div id="three" class="btns"><img src="images/software.png"/></div>
+        <div id="four" class="btns"><img src="images/game.png"/></div>
+        <div id="five" class="btns"><img src="images/business.png"/></div>	    
+        </div>
+    </div>
+    <div class="sem345 targetAfter">
+		<div id="1" class="btns s345"></div>
+		<div id="2" class="btns s345"></div>
+    	<div id="3" class="btns s345"></div>
+		<div id="4" class="btns s345"></div>
+        <div id="5" class="btns s345"></div>
+		<div id="6" class="btns s345"></div>
+    	<div id="7" class="btns s345"></div>
+		<div id="8" class="btns s345"></div>
+        <div id="9" class="btns s345"></div>
+		<div id="10" class="btns s345"></div>
+		<div id="11" class="btns s345"></div>
+    	<div id="12" class="btns s345"></div>
+		<div id="13" class="btns s345"></div>
+		<div id="14" class="btns s345"></div>
+		<div id="15" class="btns s345"></div>
+    </div>
+    <div class="sem6 targetAfter">
+    	<div id="zero" class="btns"></div>
+    </div>
+    <div id="popup" class="modal-box"> 
+          <header>
+            <a href="#" class="js-modal-close close">×</a>
+            <h3 class="titleModal"></h3>
+          </header>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo at felis vitae facilisis. Cras volutpat fringilla nunc vitae hendrerit. Donec porta id augue quis sodales. Sed sit amet metus ornare, mattis sem at, dignissim arcu. Cras rhoncus ornare mollis. Ut tempor augue mi, sed luctus neque luctus non. Vestibulum mollis tristique blandit. Aenean condimentum in leo ac feugiat. Sed posuere, est at eleifend suscipit, erat ante pretium turpis, eget semper ex risus nec dolor. Etiam pellentesque nulla neque, ut ullamcorper purus facilisis at. Nam imperdiet arcu felis, eu placerat risus dapibus sit amet. Praesent at justo at lectus scelerisque mollis. Mauris molestie mattis tellus ut facilisis. Sed vel ligula ornare, posuere velit ornare, consectetur erat.</p>
+          </div>
+          <footer>            
+          </footer>
+        </div>
+</div>
+<div class="columnRight">
+	<h3 align="center"> Credits Required: 360 (3.0 EFTS)</h3>
+	<h4 align="center"> Credits completed:</h4>
+	<p id="demo3"> Total Credits </p>
+	
+
+
+
+<!-- <div class="rightVideo"><iframe src="https://www.youtube.com/embed/KwWJaIDl6s4?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="aside-block fees">
+<h3 class="h3-type2">Annual Tuition Fees</h3>
+<div><span><strong>Domestic/NZ students</strong>
+<br> $5,914 (NZD)<br> 
+(Approximate fee only. <a href="http://www.unitec.ac.nz/application-and-funding/fees/understanding-tuition-fees">Find out more about the costs of study</a>) </span></div>
+<div> <span> <strong>International students</strong><br> $20,390 (NZD)<br> (<a href="http://www.unitec.ac.nz/international/how-to-apply/departure-and-arrival/cost-of-living-in-new-zealand">Find out more about the costs of studying in New Zealand</a>) </span></div>
+</div>
+<div class="aside-block dates">
+<h3 class="h3-type2">Semester Dates</h3><div> <span> Sem 1: <span> 2 Mar 15 – 3 Jul 15 </span> </span> <span> Sem 2: <span> 27 Jul 15 – 27 Nov 15 </span> </span></div></div>
+</div> -->
+
+</div> 
+<div id="footerHolder">
+	<div class="ftmenu_container">
+		<ul id="menu-footer-menu" class="menu">
+                <div class="menu_footer">
+<li id="menu-item-216" class="menu-item"><a href="http://www.unitec.ac.nz/about-us/contact-us">Contact Us</a></li>
+<li id="menu-item-218" class="menu-item"><a href="http://www.unitec.ac.nz/about-us/careers">Careers</a></li>
+<li id="menu-item-215" class="menu-item"><a href="http://www.unitec.ac.nz/about-us/staff-logins">Staff</a></li>
+<li id="menu-item-214" class="menu-item"><a href="http://www.unitec.ac.nz/suppliers">Suppliers</a></li>
+<li id="menu-item-212" class="menu-item"><a href="http://www.unitec.ac.nz/privacy-policy">Privacy</a></li>
+<li id="menu-item-215" class="menu-item"><a href="http://www.unitec.ac.nz/terms-of-use">Terms of Use</a></li>
+<li id="menu-item-215" class="menu-item"><a href="http://www.unitec.ac.nz/site-map">Site Map</a></li>
+	    </div>
+        </ul>
+			</div>
+			<div class="copyrights">
+				<div class="text_box">
+					<p>© Copyright 2015 Unitec</p>
+				</div>
+			</div>
+			<div class="ftsocial_container">
+				<div class="footer_social">
+					<ul>
+<li class="mt2"><a href="http://www.facebook.com/UnitecNZ" target="_blank" class="social-icons facebook"></a></li>
+<li class="mt2"><a href="http://twitter.com/UnitecNZ" target="_blank" class="social-icons twitter"></a></li>
+<li class="mt2"><a href="http://www.youtube.com/user/UnitecNZ" target="_blank" class="social-icons youtube"></a></li>
+<li class="mt2"><a href="mailto:social@unitec.ac.nz" target="" class="social-icons socialmail"></a></li>
+<li class="mt2"><a href="tel:098152945" target="" class="social-icons ftphone"></a></li>
+</ul>
+				</div>
+			</div>
+			<p class="attribution">Website designed by <a href="http://hyperdisc.unitec.ac.nz/FTP15S1/5023/MARINR05FTP/" target="_blank">Rafael Marins, Bhrushank Ved & Matthew Gane</a></p>
+		</div>
+</div>
+</body>
+<script src="scripts/tweaks.js" language="javascript"></script>
+</html>
